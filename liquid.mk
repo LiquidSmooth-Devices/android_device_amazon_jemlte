@@ -12,11 +12,11 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-# Inherit some common CM stuff.
-$(call inherit-product, vendor/cm/config/common_full_tablet_wifionly.mk)
+# Inherit some common LiquidSmooth stuff.
+$(call inherit-product, vendor/liquid/config/common_tablet.mk)
 
 # Inherit telephony stuff
-$(call inherit-product, vendor/cm/config/telephony.mk)
+$(call inherit-product, vendor/liquid/config/telephony.mk)
 
 # Inherit device configuration for bowser
 $(call inherit-product, device/amazon/jemlte/full_jemlte.mk)
@@ -26,7 +26,7 @@ $(call inherit-product, device/amazon/bowser-common/cm.mk)
 TARGET_SCREEN_WIDTH := 480
 TARGET_SCREEN_HEIGHT := 1200
 
-PRODUCT_NAME := cm_jemlte
+PRODUCT_NAME := liquid_jemlte
 PRODUCT_RELEASE_NAME := KindleFireHD
 
 
