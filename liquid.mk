@@ -20,7 +20,7 @@ $(call inherit-product, vendor/liquid/config/telephony.mk)
 
 # Inherit device configuration for bowser
 $(call inherit-product, device/amazon/jemlte/full_jemlte.mk)
-$(call inherit-product, device/amazon/bowser-common/cm.mk)
+$(call inherit-product, device/amazon/bowser-common/liquid.mk)
 
 #TARGET_SCREEN_WIDTH := 1920
 TARGET_SCREEN_WIDTH := 480
